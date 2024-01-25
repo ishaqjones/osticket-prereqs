@@ -218,18 +218,21 @@ Establish a path to the php executable file (php-cgi.exe).
   
   Reload IIS again.
   
-14.) On IIS go to sites -> Default -> osTicket
-  -On the right, click “Browse *:80”
+14.) In IIS go to sites -> Default -> osTicket -> Click “Browse *:80” to the right of the menu
   
 <p>
-<img src="https://imgur.com/Yw55d5b.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/358f3bb1-8056-4fef-b01e-fe719fe0a76b)
+
 </p>
 <p>
   
-  Some extensions are not enabled on the osTicket browser.
+  **NOTE** some extensions have not been enabled. See below.
   
 <p>
-<img src="https://imgur.com/eJIsGTn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/afbd119a-cfe6-473e-86af-47b2740841fb)
+
 </p>
 <p>
   
