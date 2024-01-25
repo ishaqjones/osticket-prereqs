@@ -103,92 +103,118 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
   
   
-5.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-  Go through the install wizard and complete the install.
+5.) IIS is now enabled so we'll down so we'll download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) 
+  Using the wizard, we'll complete a default install.
   
-6.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+6.) Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
   
-7.) Create a folder in the C drive called PHP.
+7.) Create a folder in the C drive and name it PHP.
   
-8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
+8.)  Download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and extract the contents into C:\PHP
   
   !! ATTENTION !!
 If this appears, choose to “Keep” the file:
   
 <p>
-<img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/3d09bd60-27ed-450f-a5eb-33fe73184834)
+
 </p>
 <p>
   
 <p>
-<img src="https://imgur.com/YwBhqo0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/98590556-1c4a-4d6a-87bf-d11b4f4a22ba)
+
 </p>
 <p>
 
-9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
+9.) ONce the extracted file is completed download and install the VC_redist.x86.exe. Using the wizard adhere to a default install of VC_redist.x86.exe. 
   
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
   Run the setup wizard:
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
+-Typical Setup ->
+-Launch Configuration Wizard (after install) ->
+-Standard Configuration ->
 
-  Make the new root password: Password1
+  Make the new root password one you'll remember for instance 'Password1'
   
 <p>
-<img src="https://imgur.com/KxcUy7C.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/d8b19c89-0549-4602-89db-96e5055987e4)
+
 </p>
 <p>
   
-  Execute the process on the next page.
+  Continue to the next page in the configuration wizard. 
   
 <p>
-<img src="https://imgur.com/i7sn6hT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/b39a5140-c6ab-4293-97ba-c087135ab482)
+
 </p>
 <p>
   
-11.) Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator.
-  The program should look like this.
+11.) With the files downloaded and installed, we can now search for IIS in the windows search bar, select it, and open it with Administrative privileges. 
+     The results should be similar to the picture below. 
   
 <p>
-<img src="https://imgur.com/rgdZwmM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/482592e4-c505-4c7a-8c08-473876013d56)
+
 </p>
 <p>
   
-12.) We will now want to register PHP from within IIS.
-  Click on PHP Manager
+12.) From here we'll continue and register PHP with IIS by selecting the PHP Manager.
+  
   
 <p>
-<img src="https://imgur.com/vvTLNBH.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/f3be932a-dfad-4799-8d50-c06d2e158b31)
+
 </p>
 <p>
   
-Register new PHP version.
+Select 'Register New PHP version'.
   
 <p>
-<img src="https://imgur.com/qdbn5zQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/579b5b4a-b125-40bc-ac97-c3504793a81b)
+
 </p>
 <p>
   
-You will want to provide a path to the php executable file (php-cgi.exe)). 
-  Go to C Drive -> PHP -> click on php-cgi file.
+Establish a path to the php executable file (php-cgi.exe). 
+  -C Drive -> 
+  -PHP -> click on php-cgi file.
   
 <p>
-<img src="https://imgur.com/oJZ0gp9.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/5acbd4fa-374c-47ff-8177-dbd72284123b)
+
 </p>
 <p>
   
   Restart the IIS server.
   
 <p>
-<img src="https://imgur.com/CJ3RUbG.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/ef0a0ee3-e1c3-44ac-a57b-5907aed4a760)
+
 </p>
 <p>
   
 13.) Install osTicket v1.15.8
-  -Download osTicket from the Installation Files Folder
-  -Extract and copy "upload" folder to c:\inetpub\wwwroot
+  -Download osTicket 
+  -Extract and copy the "upload" folder to c:\inetpub\wwwroot
   -Within c:\inetpub\root, Rename "upload" to "osTicket"
+</p>
+
+<p>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/7083c2d3-0915-4732-8b98-b156da3f308d)
+
+</p>
   
   Reload IIS again.
   
