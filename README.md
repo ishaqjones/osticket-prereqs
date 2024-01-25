@@ -32,7 +32,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/e428335b-a472-412e-a021-9ab82acfc935)
+
 </p>
 <p>
 To begin, create a virtual machine using Azure https://portal.azure.com/. We'll be using Windows 10 v. 22H2. Requirments for the virtual machine are as follows 2 cpus and at least 16gb of memory. 
