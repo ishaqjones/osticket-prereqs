@@ -380,30 +380,5 @@ Select a principal
 ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/6a07b688-b370-4128-92d4-d5fa345b1d72)
 
 </p>
-<p>
-  
-  The last step is to do some clean up. We will want to delete the setup folder in our system. 
-  -Delete: C:\inetpub\wwwroot\osTicket\setup
-  Only delete the setup folder and nothing else.
-  
-  We then will want to set the permissions back to "Read" only in the ost-config.php file.
-  
-<p>
-<img src="https://imgur.com/wFr0pkK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-<p>
-<img src="https://imgur.com/jsJOPyn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-  The last step after that is to login to osTicket on the browser.
-  
-<p>
-<img src="https://imgur.com/uHVdDsx.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-  Congrats! You have now successfully installed and setup osTicket!
+
 
