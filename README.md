@@ -242,16 +242,21 @@ Establish a path to the php executable file (php-cgi.exe).
   -Click "Enable or disable an extension"
   
 <p>
-<img src="https://imgur.com/vvTLNBH.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+ ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/ee48caad-a8c7-4295-ac5f-68f737544ea7)
+
 </p>
 <p>
   
 <p>
-<img src="https://imgur.com/uigyKjb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/38242170-67fc-4f35-bb30-cc173e87d4ca)
+
+
 </p>
 <p>
   
-  We will want to enable three extensions from here.
+  From this point enable the following extensions.
   
   1.) php_imap.dll
  
@@ -260,88 +265,118 @@ Establish a path to the php executable file (php-cgi.exe).
   3.) php_opcache.dll
   
 <p>
-<img src="https://imgur.com/cOem7Nb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/f4913a47-297a-4a8e-9626-1b615a643f32)
+
 </p>
 <p>
   
   
-15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder.
-  Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+15.) Onece the extensions are enabled in IIS, next is the renaming of a file in our osTicket folder. In file explore search C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php.
+     Rename ost-sampleconfig.php to ost-config.php.
   
   We are going to rename the ost-sampleconfig.php to ost-config.php
+
+  Next, we will remove all inherited permissions from this object by right-clicking properties, selecting the security tab, advance button, and 'disable inheritance'.
   
-  Now that we have renamed the files, right click on the file and go to properties.
-  From there click security, click on advance, and disable the inheritance.
-  We will select Remove all inherited permissions from this object.
   
-  Now we will add new permissions.
+  From here we'll add new permissions
   
   Click Add
   
 <p>
-<img src="https://imgur.com/VPZvOdo.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/787a7f4a-ab87-4488-9866-fb4f5a64e22e)
+
 </p>
 <p>
   
 Select a principal
   
 <p>
-<img src="https://imgur.com/PoGk34d.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/39d170fd-cfc4-4ea6-a6bf-d1f23e4421e4)
+
 </p>
 <p>
   
   
- Type "Everyone" in the box.
+ Choose the 'Everyone', and 'Check Names' button then select 'Ok'.
   
 <p>
-<img src="https://imgur.com/F4H3ppM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/659bff26-b095-4eed-9497-296418acf0bb)
+
 </p>
 <p>
   
-  Make sure Full Control and all the other boxes are checked.
+ Select Full Control complete with additional unchecked options
   
 <p>
-<img src="https://imgur.com/rbbGqwB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/b6c617f8-3a6c-4aa8-a0c6-ea3d869a297c)
+
 </p>
 <p>
   
-  Click Apply and Ok.
+  Select Apply then Ok.
   
 <p>
-<img src="https://imgur.com/saRO3y5.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/054f1557-6bf4-400d-92ef-9c48feb3b6ce)
+
+
 </p>
 <p>
   
-  Once that is done we will continue to setup osTicket in the browser. Click Continue on the osTicket browser page.
-  Fill out the page as required except the Database Settings at the bottom of the page. We will get to that. 
   
-  We will want to download and install HeidiSQL from the Installation Files. 
+ Download and install HeidiSQL. 
   
 <p>
-<img src="https://imgur.com/i7a4gWC.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/61987a21-fe48-4a5c-aed4-437a9cb4af05)
+
 </p>
 <p>
   
-  When the program is open we will create a new session in it.
+  Select the 'New' session in the bottom left corner of the HeidiSQL configuration wizard.
   
 <p>
-<img src="https://imgur.com/g5M1i61.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/88ca88b1-a9cf-45de-8b33-6cf6386539b0)
+
 </p>
 <p>
   
-  We want to make sure the username is root and the password is Password1.
+  Create the username as 'root' with the password as 'Password1'.
   
 <p>
-<img src="https://imgur.com/LEAZNOc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![image](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/b8cc1f44-1d40-468f-9c2d-107cba726f56)
+
 </p>
 <p>
   
-  Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
+ Once connected to the session we'll return to the browser to complete osTcket admin credentials. Complete the Database Settings implementing the root and Password1 credentials.
   
-  We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
+ Continuing we will create a new database in Heidi. To achieve this, right-click  "Unnamed", select "create new", and then select "database". An option will appear to name the database. Name the new database osTicket.
+ </p> 
+ <p>
+   
+
+  ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/d8b58358-9dd0-4a69-8b70-956c93995475)
+
+  ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/e9032600-3f1d-4a26-99bb-8ee1bb76eba2)
+
+  
+ </p>
+  
+  Once the new database is set up return to  osTicket in the browser.  Under the MySQL Database specification type 'osTicket'.
   
 <p>
-<img src="https://imgur.com/0rG1AJm.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/6a07b688-b370-4128-92d4-d5fa345b1d72)
+
 </p>
 <p>
   
