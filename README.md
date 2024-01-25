@@ -42,46 +42,61 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/b5194208-0026-4537-a83b-303b0b579863)
 
 </p>
-<p>
-<p>
-<img src="https://imgur.com/Zf2jw07.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
 
 <p>
-<img src="https://imgur.com/fGXMpx4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<p>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/ac15f1d5-3b62-429e-b13f-bad08d4aff96)
+
+
+</p>
+<p>
+  
+3.) Once the connection is established, open your control panel, and select 'programs'. Select 'Turn Windows features on of off. 
+
+<p>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/ddb8815a-5464-4a7a-8de1-b792a8bb2077)
+
 </p>
 <p>
   
 <p>
-<img src="https://imgur.com/LBGkAw6.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/2fc21dae-1af8-45ae-a15e-b90762b1beae)
+
 </p>
 <p>
   
-4.) You will want to install / enable IIS in Windows with CGI and Common HTTP Features
-  - World Wide Web Services -> Application Development Features -> 
-[X] CGI
-[X] Common HTTP Features
+4.) From 'Turn Windows features  On or Off' install/enable IIS Windows with CGI and Common HTTP features. 
+   World Wide Web Services -> Application Development Features -> 
+   [X] CGI
+   [X] Common HTTP Features
   
 <p>
-<img src="https://imgur.com/LQjw9le.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/5be33b87-ca46-4c85-a15a-5eb221fdf395)
+
 </p>
 <p>
   
 <p>
-<img src="https://imgur.com/pbPeHb1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/05b2fa1b-f4c2-41cd-abd6-8eb752b393c9)
+
 </p>
 <p>
   
-***NOTE*** Make sure all Common HTTP Features are checked.
+***NOTE*** Make sure all Common HTTP Features are selected.
  
- To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1 
-  It should look something like this. 
+ Confirm IIS is installed/enabled by opening  the  browser and navigating to 127.0.0.1 
+  Your results should resemble the image below. 
   
 <p>
-<img src="https://imgur.com/eICujoq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
+![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/344758f2-c7c5-4279-83df-3ec6b0e5b20f)
+
+
 </p>
 <p>
   
