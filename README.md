@@ -364,9 +364,11 @@ Select a principal
  <p>
    
 
-  ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/d8b58358-9dd0-4a69-8b70-956c93995475)
+ ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/22bb64ee-c495-456f-a919-2f2d897f8902)
 
-  ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/e9032600-3f1d-4a26-99bb-8ee1bb76eba2)
+
+  ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/e1e0ae8c-5997-4daf-86a3-f626d1fedf3c)
+
 
   
  </p>
