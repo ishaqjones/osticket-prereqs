@@ -48,7 +48,7 @@ When the virutal machines has been created and it running you can establish a co
 <br />
 
 <p>
- ![alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/4fda4fe1-87f4-409e-ac46-b89b78044471)
+ [!alt-text](https://github.com/ishaqjones/osticket-prereqs/assets/156931487/4fda4fe1-87f4-409e-ac46-b89b78044471)
 >
 </p>
 <p>
